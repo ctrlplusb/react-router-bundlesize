@@ -1,0 +1,33 @@
+{
+  "name": "react-router-bundlesize",
+  "version": "1.0.0",
+  "description": "Debugging react-router bundle size optimisation.",
+  "main": "index.js",
+  "engines": {
+    "node": "~6.3.0"
+  },
+  "scripts": {
+    "build": "webpack --env.mode production",
+    "analyse": "webpack --env.mode production --json > build/stats.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctrlplusb/react-router-bundlesize.git"
+  },
+  "author": "Sean Matheson <sean@ctrlplusb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ctrlplusb/react-router-bundlesize/issues"
+  },
+  "homepage": "https://github.com/ctrlplusb/react-router-bundlesize#readme",
+  "devDependencies": {
+    "babel-core": "6.10.4",
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015-webpack": "6.4.1",
+    "babel-preset-react": "6.11.1",
+    "path": "0.12.7",
+    "react": "15.2.1",
+    "react-dom": "15.2.1",
+    "react-router": "2.5.2"
+  }
+}
