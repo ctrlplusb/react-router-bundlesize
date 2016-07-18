@@ -1,10 +1,4 @@
-https://github.com/reactjs/react-router/issues/3642
-
-## Version
-2.5.2
-
-## Test Case
-https://github.com/ctrlplusb/react-router-bundlesize
+__Issue:__ https://github.com/reactjs/react-router/issues/3642
 
 ## Steps to reproduce
 
